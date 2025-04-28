@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё портфолио</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fff;
+        }
+        header {
+            background: #696969;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            background: #fff;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #000000;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #696969;
+            color: #fff;
+        }
+        .project {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .achievements {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .achievement {
+            width: 200px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .achievement img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Моё портфолио</h1>
+        <p>Веб-разработчик на HTML и CSS/ Разработчик на C# / Репетитор по Математике</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#achievements">Достижения</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>Обо мне</h2>
+        <p>Здравствуйте. Меня зовут Егор. Я занимаюсь Веб-программированием на html, разработчиком на С#, репетитором по математике. Вот немного информации обо мне.</p>
+        <p>Мои интересы: Программирование; технологии; предметы: математика, физика.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Мои проекты</h2>
+        <div class="project">
+            <h3>Название проекта 1</h3>
+            <p>Описание проекта. Какие технологии использовались (HTML, CSS, JavaScript и т. д.).</p>
+            <a href="#">Ссылка на проект</a>
+        </div>
+        <div class="project">
+            <h3>Название проекта 2</h3>
+            <p>Описание проекта. Какие технологии использовались.</p>
+            <a href="#">Ссылка на проект</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Мои навыки</h2>
+        <ul>
+            <li>HTML/CSS/C# ОСНОВЫ</li>
+            <li>C#</li>
+            <li>Знание курса Алгебры и Геометрии с 7-9 класс на высший балл</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2>Мои достижения</h2>
+        <div class="achievements">
+            <!-- Пример сертификата (замените src на свои фото) -->
+            <div class="achievement">
+                <a href="https://ibb.co/MD1w0QWL"><img src="https://i.ibb.co/cc8fnVMd/image.jpg" alt="image" border="0"></a>
+                <p>Сертификат: PRO C#. Основы программирования (2024)</p>
+            </div>
+            <div class="achievement">
+          <a href="https://ibb.co/MkR3DR2n"><img src="https://i.ibb.co/N2LH6LVx/image.png" alt="image" border="0"></a>
+                <p>Сертификат участника: 61-я научная конференция аспирантов, магистрантов и студентов БГУИР (Секция: Математика и естественные науки) (2025)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Свяжитесь со мной</h2>
+        <p>Email: egorchuduk@gmail.com</p>
+        <p>Телефон: +375 (25) 525-59-92</p>
+        <p>Соцсети: 
+            <a href="https://t.me/theshokz">Telegram</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Портфолио Чудук Е.В. Все права защищены.</p>
+    </footer>
+</body>
+</html>
